@@ -6,6 +6,7 @@ Summary: Linux Kernel source switch/update tool
 License: GPL
 URL: http://www.selenic.com/ketchup/wiki/
 Source: http://www.selenic.com/ketchup/%{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildArch: noarch
 
 Requires: python
