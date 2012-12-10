@@ -45,3 +45,33 @@ rm -rf %{buildroot}
 %{_mandir}/man1/ketchup.1.*
 %{_datadir}/%{name}/contrib/*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.9.8-5mdv2011.0
++ Revision: 619959
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.9.8-4mdv2010.0
++ Revision: 429667
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.9.8-3mdv2009.0
++ Revision: 247739
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.9.8-1mdv2008.1
++ Revision: 136523
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - use %%mkrel
+    - import ketchup
+
+
+* Thu May 04 2006 Leonardo Chiquitto Filho <chiquitto@mandriva.com> 0.9.8-1mdk
+- update to 0.9.8
+
+* Fri Mar 31 2006 Leonardo Chiquitto Filho <chiquitto@mandriva.com> 0.9.6-1mdk
+- initial release
