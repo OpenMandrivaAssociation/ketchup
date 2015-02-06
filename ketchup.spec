@@ -1,6 +1,6 @@
 Name: ketchup
 Version: 0.9.8
-Release:  %mkrel 5
+Release:  6
 Group: Development/Kernel
 Summary: Linux Kernel source switch/update tool
 License: GPL
